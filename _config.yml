@@ -1,0 +1,32 @@
+# Site settings
+name: 个人学习博客
+email: zd_024@126.com
+author: zcard
+url: ""
+resume_site: ""
+github: https://github.com/zcard/
+baseurl: ""
+description: 总结
+meta_description: 个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: zcard
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+#FB:
+#  comments :
+#    provider : duoshuo
+#    duoshuo:
+#        short_name : luoyan35714
+#    disqus :
+#        short_name : freudkang
